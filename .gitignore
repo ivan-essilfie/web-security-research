@@ -1,0 +1,68 @@
+# ================================
+# OS- and editor-specific clutter
+# ================================
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# ===================
+# Sensitive data files
+# ===================
+*.env
+*.key
+*.pem
+*.token
+*.auth
+*.secrets
+secrets.txt
+credentials.txt
+
+# ========================
+# Recon & tool output files
+# ========================
+*.nmap
+*.xml
+*.json
+*.csv
+*.log
+*.zip
+
+# Burp Suite exports & configs
+*.burp
+burp-*.xml
+burp-*.json
+
+# Recon folder outputs
+recon/
+output/
+screenshots/
+scans/
+temp/
+
+# ====================
+# Python artifacts
+# ====================
+__pycache__/
+*.pyc
+
+# ====================
+# Go build artifacts
+# ====================
+*.exe
+*.out
+*.test
+
+# ======================
+# VSCode or JetBrains IDE
+# ======================
+.vscode/
+.idea/
+
+# ===================
+# GitHub Pages content
+# ===================
+_site/
+*.md.html
